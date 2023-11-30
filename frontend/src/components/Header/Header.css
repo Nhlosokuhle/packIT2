@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B5CB99;
+}
+
+.logo {
+    width: 8rem;
+}
+
+.links {
+    align-self: center;
+}
+
+.homeLink {
+    padding-right: 2rem;
+    text-decoration: none;
+    color: #186F65;
+}
+
+.homeLink:hover{
+    text-decoration: underline #B2533E;
+}

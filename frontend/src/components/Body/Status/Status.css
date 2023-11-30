@@ -1,0 +1,16 @@
+.status-grid {
+    display: grid;
+    grid-template-rows: 0.5fr 3fr;
+    justify-content: center;
+}
+
+.booking-message {
+    display: inline;
+    text-align: center;
+    align-self: center;
+}
+
+.booking-message img {
+    height: 10rem;
+    shape-outside: circle();
+}

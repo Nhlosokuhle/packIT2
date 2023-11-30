@@ -1,0 +1,41 @@
+.booking-grid {
+  display: grid;
+  grid-template-rows: 0.5fr 3fr;
+}
+
+.application-form {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, select {
+  border: 0.15rem solid #186F65;
+  width: 7rem;
+  border-radius: 0.25rem;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0 auto 0.7rem 0.4rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #186F65;
+  font-weight: 300;
+  }
+
+.book-btn {
+  margin-top: 1.5rem;
+  appearance: none;
+  outline: 0;
+  background-color: #186F65;
+  border: 0;
+  padding: 0.5em 0.25em;
+  color: white;
+  border-radius: 3px;
+  width: 10rem;
+  font-size: 1rem;
+  align-self: center;
+  }
+
+.form-input {
+  padding-top: 1rem;
+}
